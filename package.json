@@ -4,8 +4,8 @@
   "description": "A full-stack web app for discovering and sharing cosmetic products. Register, add, edit, or recommend cosmetics, browse all products, and view details for each item. Built with Node.js, Express, MongoDB, bcrypt, and server-rendered views. Robust validation and secure authentication.",
   "main": "index.js",
   "scripts": {
-    "start": "node /src/index.js",
-    "dev": "node --watch /src/index.js"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
   },
   "repository": {
     "type": "git",
