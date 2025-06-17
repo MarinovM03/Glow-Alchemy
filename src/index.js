@@ -1,6 +1,10 @@
-import express from 'express';
+import express, { urlencoded } from 'express';
 
 const app = express();
+
+app.use(express.static('src/public'));
+
+app.use(express.urlencoded());
 
 app.get('/', (req, res) => {
     res.send('Hello World!'); 
