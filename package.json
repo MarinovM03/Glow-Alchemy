@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MarinovM03/Glow-Alchemy/issues"
   },
-  "homepage": "https://github.com/MarinovM03/Glow-Alchemy#readme"
+  "homepage": "https://github.com/MarinovM03/Glow-Alchemy#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
